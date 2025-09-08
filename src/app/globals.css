@@ -1,4 +1,9 @@
-/* app/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ---- Tus estilos personalizados ---- */
+
 .tarjeta-global {
   border: 1px solid #ccc;
   padding: 16px;
@@ -7,7 +12,9 @@
   transition: transform 0.2s ease;
 }
 
-.tarjeta-global:hover { transform: scale(1.02); }
+.tarjeta-global:hover { 
+  transform: scale(1.02); 
+}
 
 .titulo-global {
   font-size: 20px;
